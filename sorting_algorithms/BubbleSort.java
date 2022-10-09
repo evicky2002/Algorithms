@@ -4,7 +4,7 @@ import java.util.Arrays;
 //At the end of the each pass the highest element will be bubbled to the highest index.
 //Complexity is O(N**2)
 
-//Optimised bubble sort can be implemented where we can avoid the comparision after the initial check and find that the list is already sorted.
+//Optimised bubble sort can be implemented where we can avoid the comparison after the initial check and find that the list is already sorted.
 
 public class BubbleSort {
     public static int[] bubbleSort(int[] array) {
@@ -37,8 +37,8 @@ public class BubbleSort {
         return array;
     }
 
-//A more easy algorithm to remember bubble sort
-//1. Have a isSwapped variable in a do while loop and make go on with comparison.
+//A more easy-way to remember bubble sort
+//1. Have a isSwapped variable in a do while loop and go on with comparison.
 //2. Set isSwapped to true if a swap has happened.
 //3. Break the loop otherWise
 
