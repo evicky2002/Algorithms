@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-//Bubble Sort repeatedly compares the adjacent numbers and swaps them if the higheer index number is lower than smaller index number.
+//Bubble Sort repeatedly compares the adjacent numbers and swaps them if the higher index number is lower than smaller index number.
 //At the end of the each pass the highest element will be bubbled to the highest index.
 //Complexity is O(N**2)
 
